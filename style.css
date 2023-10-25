@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug section */
+
+.debug #app_header {
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+}
+
+.debug .logo {
+    height: 40px;
+    width: 40px;
+}
+
+/* css section */
+
+.container {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+
+#app_header {
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 29rem ;
+}
+
+.login {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 29rem;
+}
+
+a {
+    text-decoration: none;
+}
