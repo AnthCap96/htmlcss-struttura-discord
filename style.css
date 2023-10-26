@@ -61,6 +61,48 @@
     width: 56rem;
 }
 
+.debug .col_3 {
+    height: 17rem;
+    width: 16rem;
+}
+
+.debug .col_4 {
+    height: 17rem;
+    width: 10rem;
+}
+
+.debug #part_4 {
+    background-color: rgb(31, 28, 28);
+    width: 100%;
+    height: 27rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.debug #app_footer {
+    background-color: rgb(31, 28, 28);
+    width: 100%;
+    flex-direction: row;
+}
+
+.debug .sub_footer {
+    background-color: aqua;
+    width: 56rem;
+    height: 5rem;
+}
+
+.debug .logo_footer {
+    background-color: pink;
+    width: 5rem;
+    height: 2rem;
+}
+
+.debug .button_f {
+    background-color: pink;
+    width: 5rem;
+    height: 2rem;
+}
+
 /* css section */
 
 .container {
@@ -96,7 +138,7 @@ a {
 }
 
 #sub_main {
-    padding: 5rem 5rem 5rem 23rem;
+    padding: 5rem 5rem 5rem 22rem;
 }
 
 
@@ -119,8 +161,7 @@ a {
     display: flex;
     background-color: rgb(0, 114, 118);
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .col_2 {
@@ -150,6 +191,57 @@ a {
 .last_img {
     display: flex;
     background-color: forestgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_3 {
+    display: flex;
+    background-color: rgb(255, 93, 241);
+    justify-content: center;
+    align-items: center;
+}
+
+.col_4 {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+#part_4 {
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 17rem;
+}
+
+#end_footer {
+    display: flex;
+}
+
+hr {
+    display: flex;
+    color: white;
+}
+
+#app_footer {
+    padding: 2rem 5rem 5rem 17rem;
+}
+
+.sub_footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.logo_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_f {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
